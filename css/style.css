@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.center-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+.center-menu button {
+  text-transform: uppercase;
+  background-color: white;
+  border: none;
+  margin-bottom: 5px;
+  height: 30px;
+  width: 60px;
+  -webkit-box-shadow: 4px 4px 6px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 4px 6px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.center-menu button:hover {
+  background-color: #111111;
+  color: #fff;
+}
+
+.center-menu button:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.center-menu p {
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.circle {
+  width: 500px;
+  height: 500px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: ". ." ". .";
+  grid-column-gap: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.center-menu {
+  width: 140px;
+  height: 140px;
+  background-color: #a5a5a5;
+  position: absolute;
+  border: 1.2rem solid #3a3a3a;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.button {
+  width: 220px;
+  height: 220px;
+}
+
+.red {
+  background-color: #ff2b2b;
+  border-radius: 100% 0 0 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.blue {
+  background-color: #3d4aff;
+  border-radius: 0 100% 0 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.green {
+  background-color: #40ff50;
+  border-radius: 0 0 100% 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, 0.2);
+          box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, 0.2);
+}
+
+.yellow {
+  background-color: #f8de49;
+  border-radius: 0 0 0 100%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 8px 8px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.active {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  -webkit-filter: contrast(1.8);
+          filter: contrast(1.8);
+  -webkit-box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, 0.1);
+          box-shadow: 8px 8px 10px -3px rgba(0, 0, 0, 0.1);
+}
+
+.play {
+  -webkit-filter: contrast(1.8);
+          filter: contrast(1.8);
+}
+/*# sourceMappingURL=style.css.map */
